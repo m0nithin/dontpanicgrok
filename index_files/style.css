@@ -131,7 +131,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
     display: flex;
     align-items: center;
@@ -871,9 +871,11 @@ a {
     .Home {
         background-attachment: scroll;
     }
+
     .nav {
         display: none;
     }
+
     .phone_nav {
         width: 100%;
         display: flex;
@@ -882,12 +884,14 @@ a {
         min-height: 70px;
         flex-direction: column;
     }
+
     .nav_wrapper {
         display: flex;
         align-items: center;
         justify-content: space-around;
         width: 80%;
     }
+
     .burger-menu {
         display: flex;
         align-items: flex-end;
@@ -895,24 +899,29 @@ a {
         flex-direction: column;
         flex: 1;
     }
+
     .bar {
         background-color: white;
         height: 3px;
         width: 25px;
         margin: 3px 0;
     }
+
     .left {
         flex: 1;
     }
+
     .left img {
         width: 110px;
     }
+
     .expanded {
         position: relative;
         opacity: 0;
         transform: translateY(-100%);
         transition: all 0.5s ease-in-out;
     }
+
     .expanded.active {
         display: flex;
         align-items: center;
@@ -922,6 +931,7 @@ a {
         opacity: 1;
         transform: translateY(0);
     }
+
     .expanded.active ul {
         width: 100%;
         display: flex;
@@ -932,31 +942,38 @@ a {
         list-style: none;
         padding: 0;
     }
+
     .expanded.active ul li {
         width: 100%;
         border-top: 1px solid var(--primary);
     }
+
     .expanded.active ul li a {
         color: var(--primary);
         text-decoration: none;
         padding: 15px;
     }
+
     .main {
         margin-top: 0;
     }
+
     .Home_Container p {
         text-align: center;
     }
+
     .About h1 {
         font-size: 27px;
         text-align: center;
         word-break: break-word;
         color: pink;
     }
+
     .About p {
         text-align: center;
         word-break: break-word;
     }
+
     .About_info {
         flex-direction: column;
         margin-bottom: 120px;
@@ -964,16 +981,19 @@ a {
         align-items: center;
         justify-content: center;
     }
+
     .About_element {
         width: 90%;
         padding: 10px;
         display: flex;
         justify-content: center;
     }
+
     .About_element img {
         width: 90%;
         max-width: 600px;
     }
+
     .More_info {
         margin-top: 140px;
         margin-bottom: 140px;
@@ -981,23 +1001,28 @@ a {
         width: 100%;
         gap: 30px;
     }
+
     .info_right {
         width: 90%;
         padding: 0px 10px;
     }
+
     .info_right h1 {
         font-size: 27px;
         text-align: center;
         word-break: break-word;
     }
+
     .info_right p {
         text-align: center;
         word-break: break-word;
     }
+
     .info_left {
         flex-direction: column;
         width: 90%;
     }
+
     .info_element {
         width: 100%;
         flex: 1 1 calc(50% - 44px);
@@ -1008,30 +1033,36 @@ a {
         flex-direction: column;
         gap: 20px;
     }
+
     .Section_2_image {
         height: 60vh;
         width: 100%;
         background-attachment: scroll;
     }
+
     .Tokenomics {
         margin-top: 140px;
         margin-bottom: 140px;
     }
+
     .Tokenomics h1 {
         font-size: 27px;
         text-align: center;
         word-break: break-word;
         color: pink;
     }
+
     .Tokenomics p {
         text-align: center;
         word-break: break-word;
     }
+
     .Box_holder {
         width: 90%;
         align-items: stretch;
         flex-direction: column;
     }
+
     .Box_left {
         display: flex;
         align-items: center;
@@ -1040,6 +1071,7 @@ a {
         border: var(--primary) 2px solid;
         width: 100%;
     }
+
     .Box_left .upper {
         display: flex;
         align-items: center;
@@ -1049,18 +1081,22 @@ a {
         width: 100%;
         flex: 1;
     }
+
     .Box_left .lower {
         width: 100%;
         padding: 10px 0px;
     }
+
     .lower span {
         font-size: 40px;
         font-weight: 900;
     }
+
     .lower p {
         font-size: 20px;
         font-weight: 900;
     }
+
     .u_element_1 {
         border-bottom: var(--primary) 1px solid;
         padding: 10px 0px;
@@ -1070,20 +1106,24 @@ a {
         flex-direction: column;
         width: 100%;
     }
+
     .u_element_1 span,
     .u_element_2 span {
         font-size: 40px;
         font-weight: 900;
     }
+
     .u_element_1 p,
     .u_element_2 p {
         font-size: 20px;
         font-weight: 900;
     }
+
     .u_element_2 {
         padding: 10px 0px;
         width: 100%;
     }
+
     .Box_right {
         display: flex;
         align-items: center;
@@ -1093,14 +1133,17 @@ a {
         border: var(--primary) 2px solid;
         width: 100%;
     }
+
     .Box_right span {
         font-size: 40px;
         font-weight: 900;
     }
+
     .Box_right p {
         font-size: 20px;
         font-weight: 900;
     }
+
     .Box_2_holder {
         display: flex;
         width: 90%;
@@ -1109,31 +1152,38 @@ a {
         flex-direction: column;
         border: var(--primary) 2px solid;
     }
+
     .element_1 {
         width: 100%;
         padding: 10px 0px;
         border-bottom: var(--primary) 1px solid;
     }
+
     .element_2 {
         width: 100%;
         padding: 10px 0px;
     }
+
     .element_1 span {
         font-size: 40px;
         font-weight: 900;
     }
+
     .element_2 span {
         font-size: 40px;
         font-weight: 900;
     }
+
     .element_1 p {
         font-size: 20px;
         font-weight: 900;
     }
+
     .element_2 p {
         font-size: 20px;
         font-weight: 900;
     }
+
     .Roadmap_title {
         width: 90%;
         display: flex;
@@ -1143,18 +1193,22 @@ a {
         padding-top: 20px;
         padding-bottom: 20px;
     }
+
     .Roadmap_title span {
         word-spacing: 10px;
     }
+
     .Roadmap_title h1 {
         font-size: 40px;
         font-weight: 900;
         margin: 10px;
     }
+
     .Roadmap_title p {
         text-align: center;
         color: white;
     }
+
     .Roadmap {
         width: 100%;
         position: relative;
@@ -1166,6 +1220,7 @@ a {
         padding-bottom: 70px;
         margin-bottom: 70px;
     }
+
     .Roadmap::before {
         content: '';
         position: absolute;
@@ -1178,6 +1233,7 @@ a {
         /* border-width: 0 calc(var(--tw-line-bd-width) * 1px) 0 calc( * 1px);
         border-style: solid; */
     }
+
     .Roadmap_content {
         width: 100%;
         display: flex;
@@ -1186,6 +1242,7 @@ a {
         flex-direction: column;
         gap: 50px;
     }
+
     .start {
         top: 0px;
         background-color: var(--primary);
@@ -1197,6 +1254,7 @@ a {
         z-index: 9;
         border-radius: calc(50 * 1%);
     }
+
     .start::after {
         content: '';
         position: absolute;
@@ -1205,6 +1263,7 @@ a {
         background-color: var(--primary);
         left: calc(10% - 4px/ 2);
     }
+
     .end {
         bottom: 0px;
         background-color: var(--primary);
@@ -1216,6 +1275,7 @@ a {
         z-index: 9;
         border-radius: calc(50 * 1%);
     }
+
     .end::after {
         content: '';
         position: absolute;
@@ -1224,6 +1284,7 @@ a {
         background-color: var(--primary);
         left: calc(10% - 4px/ 2);
     }
+
     .Roadmap_content .element {
         display: flex;
         width: 100%;
@@ -1232,28 +1293,35 @@ a {
         position: relative;
         padding: 0px 0px;
     }
+
     .Roadmap_content .left {
         flex-direction: column;
     }
+
     .Roadmap_content .right {
         flex-direction: column;
     }
+
     .label {
         color: var(--primary);
         width: 80%;
         text-align: center;
         margin: 20px 0;
     }
+
     .left .label {
         text-align: center;
     }
+
     .label h1 {
         font-size: 20px;
         margin: 0;
     }
+
     .label span {
         font-size: 20px;
     }
+
     .mark {
         position: absolute;
         top: 20px;
@@ -1267,10 +1335,12 @@ a {
         border: 2px solid var(--primary);
         border-radius: 25px;
     }
+
     .mark img {
         width: 100%;
         max-width: 100%;
     }
+
     .content {
         display: flex;
         flex-direction: column;
@@ -1281,26 +1351,32 @@ a {
         word-break: break-word;
         margin-left: 40px;
     }
+
     .content h1 {
         font-size: 30px;
         margin: 20px 20px;
     }
+
     .content img {
         align-self: center;
         width: 95%;
     }
+
     .Section_3_image {
         background-attachment: scroll;
     }
+
     .Inform {
         width: 100%;
         margin-top: 50px;
     }
+
     .Inform_title {
         font-size: 30px;
         font-weight: 700;
         text-align: center;
     }
+
     .Inform_container {
         width: 100%;
         display: flex;
@@ -1308,6 +1384,7 @@ a {
         justify-content: center;
         flex-direction: column;
     }
+
     .Inform_container_text {
         display: flex;
         align-items: center;
@@ -1316,12 +1393,15 @@ a {
         flex-direction: column;
         width: 90%;
     }
+
     .text_element h1 {
         font-size: 20px;
     }
+
     .text_element p {
         font-size: 14px;
     }
+
     .Inform_container_image {
         display: flex;
         align-items: center;
@@ -1329,10 +1409,12 @@ a {
         margin-top: 20px;
         width: 90%;
     }
+
     .Inform_container_image img {
         width: 100%;
         max-width: 500px;
     }
+
     .pre_footer {
         width: 100%;
         display: flex;
@@ -1343,37 +1425,45 @@ a {
         margin-top: 100px;
         margin-bottom: 100px;
     }
+
     .pre_footer h1 {
         font-size: 30px;
         font-weight: 700;
         margin: 3px;
     }
+
     .pre_footer span {
         font-size: 14px;
         word-spacing: 10px;
     }
+
     .footer {
         flex-direction: column;
         padding: 80px 0;
         gap: 30px;
     }
+
     .footer_element {
         width: 90%;
     }
+
     .footer_element img {
         max-width: 150px;
         width: 150px;
     }
+
     .footer_element a {
         text-decoration: none;
         color: white;
         font-weight: 500;
         margin: 4px;
     }
+
     .footer_element h1 {
         font-size: 30px;
         color: pink;
     }
+
     .Copyright {
         width: 100%;
         display: flex;
@@ -1383,6 +1473,7 @@ a {
         word-break: break-word;
         margin-bottom: 20px;
     }
+
     .reveal {
         position: relative;
         opacity: 0;
@@ -1390,11 +1481,13 @@ a {
         /* Initial position above */
         transition: opacity 2s ease, transform 1s ease;
     }
+
     .reveal.active {
         opacity: 1;
         transform: translateY(0);
         /* Final position */
     }
+
     .revealleft {
         position: relative;
         opacity: 0;
@@ -1402,11 +1495,13 @@ a {
         /* Initial position above */
         transition: opacity 2s ease, transform 1s ease;
     }
+
     .revealleft.active {
         opacity: 1;
         transform: translateY(0);
         /* Final position */
     }
+
     .revealleftslight {
         position: relative;
         opacity: 0;
@@ -1414,11 +1509,13 @@ a {
         /* Initial position above */
         transition: opacity 2s ease, transform 1s ease;
     }
+
     .revealleftslight.active {
         opacity: 1;
         transform: translateY(0);
         /* Final position */
     }
+
     .revealright {
         position: relative;
         opacity: 0;
@@ -1426,11 +1523,13 @@ a {
         /* Initial position above */
         transition: opacity 2s ease, transform 1s ease;
     }
+
     .revealright.active {
         opacity: 1;
         transform: translateY(0);
         /* Final position */
     }
+
     .revealbot {
         position: relative;
         opacity: 0;
@@ -1438,6 +1537,7 @@ a {
         /* Initial position above */
         transition: opacity 2s ease, transform 1s ease;
     }
+
     .revealbot.active {
         opacity: 1;
         transform: translateY(0);
@@ -1449,9 +1549,11 @@ a {
     .nav {
         display: none;
     }
+
     .main {
         margin-top: 0;
     }
+
     .phone_nav {
         width: 100%;
         display: flex;
@@ -1460,12 +1562,14 @@ a {
         min-height: 70px;
         flex-direction: column;
     }
+
     .nav_wrapper {
         display: flex;
         align-items: center;
         justify-content: space-around;
         width: 80%;
     }
+
     .burger-menu {
         display: flex;
         align-items: flex-end;
@@ -1473,24 +1577,29 @@ a {
         flex-direction: column;
         flex: 1;
     }
+
     .bar {
         background-color: white;
         height: 3px;
         width: 25px;
         margin: 3px 0;
     }
+
     .left {
         flex: 1;
     }
+
     .left img {
         width: 110px;
     }
+
     .expanded {
         position: relative;
         opacity: 0;
         transform: translateY(-100%);
         transition: all 0.5s ease-in-out;
     }
+
     .expanded.active {
         display: flex;
         align-items: center;
@@ -1500,6 +1609,7 @@ a {
         opacity: 1;
         transform: translateY(0);
     }
+
     .expanded.active ul {
         width: 100%;
         display: flex;
@@ -1510,15 +1620,18 @@ a {
         list-style: none;
         padding: 0;
     }
+
     .expanded.active ul li {
         width: 100%;
         border-top: 1px solid var(--primary);
     }
+
     .expanded.active ul li a {
         color: var(--primary);
         text-decoration: none;
         padding: 15px;
     }
+
     .About_info {
         flex-direction: column;
         margin-bottom: 120px;
@@ -1526,16 +1639,19 @@ a {
         align-items: center;
         justify-content: center;
     }
+
     .About_element {
         width: 90%;
         padding: 10px;
         display: flex;
         justify-content: center;
     }
+
     .About_element img {
         width: 90%;
         max-width: 600px;
     }
+
     .More_info {
         margin-top: 140px;
         margin-bottom: 140px;
@@ -1543,23 +1659,28 @@ a {
         width: 100%;
         gap: 30px;
     }
+
     .info_right {
         width: 90%;
         padding: 0px 10px;
     }
+
     .info_right h1 {
         font-size: 27px;
         text-align: center;
         word-break: break-word;
     }
+
     .info_right p {
         text-align: center;
         word-break: break-word;
     }
+
     .info_left {
         flex-direction: column;
         width: 90%;
     }
+
     .info_element {
         width: 100%;
         flex: 1 1 calc(50% - 44px);
@@ -1570,6 +1691,7 @@ a {
         flex-direction: column;
         gap: 20px;
     }
+
     .reveal {
         position: relative;
         opacity: 0;
@@ -1577,11 +1699,13 @@ a {
         /* Initial position above */
         transition: opacity 2s ease, transform 1s ease;
     }
+
     .reveal.active {
         opacity: 1;
         transform: translateY(0);
         /* Final position */
     }
+
     .revealleft {
         position: relative;
         opacity: 0;
@@ -1589,11 +1713,13 @@ a {
         /* Initial position above */
         transition: opacity 2s ease, transform 1s ease;
     }
+
     .revealleft.active {
         opacity: 1;
         transform: translateY(0);
         /* Final position */
     }
+
     .revealleftslight {
         position: relative;
         opacity: 0;
@@ -1601,11 +1727,13 @@ a {
         /* Initial position above */
         transition: opacity 2s ease, transform 1s ease;
     }
+
     .revealleftslight.active {
         opacity: 1;
         transform: translateY(0);
         /* Final position */
     }
+
     .revealright {
         position: relative;
         opacity: 0;
@@ -1613,11 +1741,13 @@ a {
         /* Initial position above */
         transition: opacity 2s ease, transform 1s ease;
     }
+
     .revealright.active {
         opacity: 1;
         transform: translateY(0);
         /* Final position */
     }
+
     .revealbot {
         position: relative;
         opacity: 0;
@@ -1625,6 +1755,7 @@ a {
         /* Initial position above */
         transition: opacity 2s ease, transform 1s ease;
     }
+
     .revealbot.active {
         opacity: 1;
         transform: translateY(0);
